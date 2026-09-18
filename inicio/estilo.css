@@ -1,0 +1,121 @@
+/* -------------------- */
+/* ESTILOS GENERALES    */
+/* -------------------- */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* -------------------- */
+/* CABECERA             */
+/* -------------------- */
+
+.cabecera {
+    background-color: #1a1a1a;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.cabecera img {
+    width: 120px;
+    margin-bottom: 10px;
+}
+
+.cabecera h1 {
+    margin: 0;
+    font-size: 2.2rem;
+    letter-spacing: 2px;
+}
+
+/* -------------------- */
+/* BARRA DE NAVEGACIÓN  */
+/* -------------------- */
+
+.barraNavegacion {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: 0.3s;
+}
+
+.navbar a:hover {
+    color: #ffcc00;
+}
+
+/* -------------------- */
+/* CONTENIDO PRINCIPAL  */
+/* -------------------- */
+
+.contenido {
+    width: 90%;
+    max-width: 1200px;
+    margin: 40px auto;
+}
+
+/* ZONA A → imagen izquierda, texto derecha */
+.zonaA {
+    display: flex;
+    flex-direction: row; /* imagen izquierda */
+    gap: 25px;
+    margin-bottom: 40px;
+    align-items: center;
+}
+
+/* ZONA B → texto izquierda, imagen derecha */
+.zonaB {
+    display: flex;
+    flex-direction: row-reverse; /* imagen derecha */
+    gap: 25px;
+    margin-bottom: 40px;
+    align-items: center;
+}
+
+.zonaA img, .zonaB img {
+    width: 45%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.zonaA p, .zonaB p {
+    width: 55%;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* -------------------- */
+/* PIE DE PÁGINA        */
+/* -------------------- */
+
+.piePagina {
+    background-color: #1a1a1a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.piePagina p {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.6;
+}
