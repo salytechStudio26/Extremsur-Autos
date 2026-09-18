@@ -1,0 +1,87 @@
+/* ================================
+   TÍTULO
+   ================================ */
+
+.tituloCompra {
+    text-align: center;
+    font-size: 28px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* ================================
+   FORMULARIO
+   ================================ */
+
+#formCompra {
+    width: 90%;
+    max-width: 650px;
+    margin: 0 auto 40px auto;
+    background: #f7f7f7;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#formCompra label {
+    font-weight: bold;
+    color: #333;
+}
+
+#formCompra input,
+#formCompra select,
+#formCompra textarea {
+    padding: 10px;
+    border: 1px solid #bbb;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+#formCompra textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+/* ================================
+   BOTÓN GUARDAR
+   ================================ */
+
+.btnGuardar {
+    padding: 12px;
+    background: #0077cc;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btnGuardar:hover {
+    background: #005fa3;
+}
+
+/* ================================
+   RESPONSIVE
+   ================================ */
+
+@media (max-width: 600px) {
+    #formCompra {
+        padding: 15px;
+    }
+
+    #formCompra input,
+    #formCompra select,
+    #formCompra textarea {
+        font-size: 14px;
+    }
+
+    .btnGuardar {
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,137 @@
+/* ================================
+   TÍTULO
+   ================================ */
+
+.tituloContacto {
+    text-align: center;
+    font-size: 28px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* ================================
+   INFORMACIÓN GENERAL
+   ================================ */
+
+.infoContacto {
+    width: 90%;
+    max-width: 600px;
+    margin: 0 auto;
+    background: #f7f7f7;
+    padding: 20px 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+}
+
+.infoContacto h3 {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #444;
+}
+
+.infoContacto p {
+    font-size: 16px;
+    margin: 8px 0;
+}
+
+/* ================================
+   REDES SOCIALES
+   ================================ */
+
+.redesSociales {
+    width: 90%;
+    max-width: 600px;
+    margin: 30px auto;
+    text-align: center;
+    background: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+}
+
+.redesSociales h3 {
+    margin-bottom: 15px;
+    color: #444;
+}
+
+.iconosRedes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.iconosRedes img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s;
+}
+
+.iconosRedes img:hover {
+    transform: scale(1.15);
+}
+
+/* ================================
+   TABLA DE SUCURSALES
+   ================================ */
+
+.sucursales {
+    width: 95%;
+    max-width: 900px;
+    margin: 40px auto;
+    background: #f7f7f7;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+}
+
+.sucursales h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+.tablaSucursales {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 16px;
+}
+
+.tablaSucursales thead {
+    background: #0077cc;
+    color: white;
+}
+
+.tablaSucursales th,
+.tablaSucursales td {
+    padding: 12px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.tablaSucursales tbody tr:nth-child(even) {
+    background: #f0f0f0;
+}
+
+.tablaSucursales tbody tr:hover {
+    background: #d9eaff;
+    transition: 0.2s;
+}
+
+/* ================================
+   RESPONSIVE
+   ================================ */
+
+@media (max-width: 600px) {
+    .infoContacto,
+    .redesSociales,
+    .sucursales {
+        padding: 15px;
+    }
+
+    .tablaSucursales th,
+    .tablaSucursales td {
+        font-size: 14px;
+        padding: 8px;
+    }
+}
